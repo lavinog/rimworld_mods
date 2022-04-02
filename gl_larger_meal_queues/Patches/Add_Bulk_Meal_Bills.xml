@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes</xpath>
+				<value>
+          <li>CookMealSimpleBulk2</li>
+          <li>CookMealFineBulk2</li>
+          <li>CookMealLavishBulk2</li>
+          <li>CookMealSurvivalBulk2</li>        
+          <li>Make_PemmicanBulk2</li>
+        </value>
+			</li>
+      
+      <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="FueledStove"]/recipes</xpath>
+				<value>
+          <li>CookMealSimpleBulk2</li>
+          <li>CookMealFineBulk2</li>
+          <li>CookMealLavishBulk2</li>
+          <li>CookMealSurvivalBulk2</li>        
+          <li>Make_PemmicanBulk2</li>
+        </value>
+			</li>
+      
+      <li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="TableButcher"]/recipes</xpath>
+				<value>
+          <li>Make_KibbleBulk</li>          
+        </value>
+			</li>
+      
+    </operations>
+  </Operation>
+</Patch>
