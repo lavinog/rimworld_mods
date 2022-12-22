@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
+		<success>Normal</success>
 		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps/li[@Class = "CompProperties_Power"]/basePowerConsumption</xpath>
