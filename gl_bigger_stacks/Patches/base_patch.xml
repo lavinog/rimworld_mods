@@ -5,7 +5,7 @@
 		<success>Normal</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[@Name = "MealBase"]/stackLimit</xpath>
+				<xpath>/Defs/ThingDef[@Name = "MealBaseIngredientless"]/stackLimit</xpath>
 				<value>
 					<stackLimit>50</stackLimit>
 				</value>
